@@ -297,7 +297,6 @@ margin-bottom: 0px;
 .team-social-item {
     width: 40px;
     height: 40px;
-
 }
 
 
@@ -310,9 +309,6 @@ margin-bottom: 0px;
     border-radius: 50%;
     background-color: var(--btn-primary);
 }
-
-
-.team-social-icon {}
 
 
 .hero-secondary-heading {
@@ -360,7 +356,6 @@ margin-bottom: 0px;
     color: var(--WHITE);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     border-color: var(--btn-hover-active);
-  
 }
 
 
@@ -395,7 +390,6 @@ margin-bottom: 0px;
 .card-content {
     padding-top: 32px;
     padding-bottom: 32px;
-
     border-left: 1px solid var(--btn-border);
     border-right: 1px solid var(--btn-border);
     border-bottom: 1px solid var(--btn-border);;
@@ -415,7 +409,6 @@ margin-bottom: 0px;
 }
 
 .features-heading {
-    
     margin-bottom: 8px;
     margin-top: 0px;
     text-align: left;
@@ -509,12 +502,10 @@ margin-bottom: 0px;
 }
 
 
-
 .customers {
     padding-top: 120px;
     padding-bottom: 120px;
 }
-
 
 
 .customers-list {
@@ -542,9 +533,8 @@ margin-bottom: 0px;
 .logo-icon:hover {
     fill: var(--btn-hover-active);}
 
-.company-logo-link:hover {border-color: var(--btn-hover-active);}
-
-
+.company-logo-link:hover {
+    border-color: var(--btn-hover-active);}
 
 
 .logo-footer {
