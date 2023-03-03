@@ -10,6 +10,7 @@
     --btn-back: #F4F4FD;
     --basic-margin: 24px;
     --icon-background: #AFB1B8;
+    --icon-hover-green: #31D0AA;
   }
 
   img {
@@ -310,6 +311,10 @@ margin-bottom: 0px;
     background-color: var(--btn-primary);
 }
 
+.team-social-link:hover,
+.team-social-link:focus {
+    background-color: var(--btn-hover-active)}
+
 
 .hero-secondary-heading {
     font-weight: 700;
@@ -501,6 +506,10 @@ margin-bottom: 0px;
     background-color: rgba(255, 255, 255, 0.1);
 }
 
+.social-list-item-link:hover,
+.social-list-item-link:focus {
+    background-color: var(--icon-hover-green);
+}
 
 .customers {
     padding-top: 120px;
@@ -530,12 +539,17 @@ margin-bottom: 0px;
     fill: var(--icon-background);
 }
 
-.logo-icon:hover {
-    fill: var(--btn-hover-active);}
+.company-logo-link:hover .logo-icon {
+   fill: var(--btn-hover-active);
+}
+
+.company-logo-link:focus .logo-icon {
+    fill: var(--btn-hover-active);
+}
 
 .company-logo-link:hover {
-    border-color: var(--btn-hover-active);}
-
+    border-color: var(--btn-hover-active);
+}
 
 .logo-footer {
     text-decoration: none;
